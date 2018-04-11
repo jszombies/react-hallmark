@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config demo/webpack.config.js",
+    "lint": "./node_modules/.bin/eslint src --ext .js --ext .jsx -f table",
     "test": "jest -c ./src/tests/jest.json"
   },
   "devDependencies": {
