@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: distDir,
-    library: 'ReactHighlightTiny',
+    library: 'ReactHallmark',
     libraryTarget: 'umd',
     filename: 'bundle.js',
   },
