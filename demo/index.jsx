@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
-import Items from '../src';
-import theme from './theme.css';
-import './index.html';
+import Items from 'react-highlight-tiny-list';
 import array from '../mocks/array.json';
 import tree from '../mocks/tree.json';
+import theme from './theme.css';
+import './index.html';
 
 class App extends PureComponent {
   state = {

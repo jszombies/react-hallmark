@@ -1,8 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-
-import Items from '../Items.jsx';
-import array from '../../mocks/array.json';
+import array from '../../../mocks/array.json';
+import Items from '../src/Items.jsx';
 
 describe('Items component', () => {
   let output;
