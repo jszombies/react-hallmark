@@ -1,11 +1,11 @@
 {
-  "name": "react-highlight-tiny",
+  "name": "react-hallmark",
   "version": "0.1.0",
-  "description": "Tiny component for highlighting",
+  "description": "Component for highlighting",
   "private": true,
   "workspaces": ["packages/*"],
-  "repository": "https://github.com/jszombies/react-highlight-tiny.git",
-  "homepage": "https://jszombies.github.io/react-highlight-tiny/",
+  "repository": "https://github.com/jszombies/react-hallmark.git",
+  "homepage": "https://jszombies.github.io/react-hallmark/",
   "author": {
     "name": "Źmicier Jaraševič",
     "email": "zmeecer@gmail.com>"
@@ -14,17 +14,23 @@
     "react",
     "highlight",
     "search",
+    "text",
+    "list",
+    "mark",
+    "autocomplete",
     "regexp",
-    "tiny"
+    "tiny",
+    "component",
+    "lerna"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "lerna run build --scope react-highlight-tiny-list",
+    "build": "lerna run build --scope @react-hallmark/list",
     "lint": "eslint packages --ext .js,.jsx --ignore-pattern lib/ -f table",
     "test": "jest -c jest.json",
     "start": "webpack-dev-server --config demo/webpack.config.js",
     "demo:build": "webpack --config demo/webpack.config.js -p",
-    "prepublish": "yarn run lint && yarn run test && yarn run build",
+    "prepublish": "yarn lint && yarn test && yarn build",
     "gh:_build": "yarn demo:build && cp package.json demo",
     "gh:_commit": "git checkout -b gh-pages-update && git add demo && git commit -m `update gh pages`",
     "gh:_push": "git filter-branch -f --subdirectory-filter demo && git push origin gh-pages-update",

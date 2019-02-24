@@ -1,8 +1,8 @@
-# React Highlight Tiny
+# React Hallmark
 
-[![Npm package](https://img.shields.io/npm/v/react-highlight-tiny.svg?style=flat)](https://npmjs.com/package/react-highlight-tiny)
-[![Build Status](https://travis-ci.org/jszombies/react-highlight-tiny.svg?branch=develop)](https://travis-ci.org/jszombies/react-highlight-tiny)
-[![Dependency Status](https://david-dm.org/jszombies/react-highlight-tiny.svg)](https://david-dm.org/jszombies/react-highlight-tiny)
+[![Npm package](https://img.shields.io/npm/v/react-hallmark.svg?style=flat)](https://npmjs.com/package/react-hallmark)
+[![Build Status](https://travis-ci.org/jszombies/react-hallmark.svg?branch=develop)](https://travis-ci.org/jszombies/react-hallmark)
+[![Dependency Status](https://david-dm.org/jszombies/react-hallmark.svg)](https://david-dm.org/jszombies/react-hallmark)
 
 ## Intro
 

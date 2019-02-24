@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
-import Items from 'react-highlight-tiny-list';
+import Items from '../packages/list/src';
 import array from '../mocks/array.json';
 import tree from '../mocks/tree.json';
 import theme from './theme.css';
@@ -14,7 +14,7 @@ class App extends PureComponent {
   render() {
     return (
       <div>
-        <h1 style={{ color: '#444' }}>React Highlight Tiny</h1>
+        <h1 style={{ color: '#444' }}>React Hallmark</h1>
         <input
           style={{
             display: 'block',
